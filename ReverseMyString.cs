@@ -10,7 +10,12 @@ namespace ReverseStringRM
     {
         public static string Inputhandler(string input)
         {
-            char[] CharArray = input.ToCharArray(); // makes a char array out of our string
+            if (input == null)
+            {
+
+            }
+
+            char[] CharArray = input.ToCharArray(); // makes a char array out of our string 
 
             // declare an empty string to fill reversely
 
@@ -24,9 +29,14 @@ namespace ReverseStringRM
                 Reversedstring += CharArray[i];
             }
 
-            
+            // writes out what you put in, before reversal.
+
+
             Console.WriteLine(input);
             
+
+            // returns the string who has been reversed
+
             return Reversedstring;
         }
 
