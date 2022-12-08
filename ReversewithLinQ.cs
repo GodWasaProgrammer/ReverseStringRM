@@ -22,7 +22,7 @@ namespace ReverseStringRM
             // creates a string <output> , then makes input into a chararray,reverses,and back to array
             string output = new(input.ToCharArray().Reverse().ToArray());
 
-            if (input == output)
+            if (input == output && input != "")
 
             {
                 Console.WriteLine("This is a Palondrime");

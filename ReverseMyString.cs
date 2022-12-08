@@ -37,7 +37,7 @@ namespace ReverseStringRM
 
             // returns the string who has been reversed
 
-            if(input == Reversedstring)
+            if(input == Reversedstring && input != "")
             {
                 Console.WriteLine("This is a Palindrome");
             }
