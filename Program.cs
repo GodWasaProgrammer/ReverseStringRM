@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Reverse string");
 
-            
+            Console.WriteLine(ReverseMyString.Inputhandler("Banana"));
         }
     }
 }
