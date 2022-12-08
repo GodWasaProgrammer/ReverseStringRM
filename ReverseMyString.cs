@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ReverseStringRM
+﻿namespace ReverseStringRM
 {
     public class ReverseMyString
     {
         public static string Inputhandler(string input)
         {
-            if (input == null)
-            {
 
-            }
 
             char[] CharArray = input.ToCharArray(); // makes a char array out of our string 
 
@@ -33,11 +24,11 @@ namespace ReverseStringRM
 
 
             Console.WriteLine($"you typed: " + input);
-            
+
 
             // returns the string who has been reversed
 
-            if(input == Reversedstring && input != "")
+            if (input == Reversedstring && input != "")
             {
                 Console.WriteLine("This is a Palindrome");
             }
@@ -45,8 +36,8 @@ namespace ReverseStringRM
             return Reversedstring;
         }
 
-        
+
 
     }
-    
+
 }
