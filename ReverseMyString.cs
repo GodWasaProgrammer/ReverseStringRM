@@ -32,10 +32,15 @@ namespace ReverseStringRM
             // writes out what you put in, before reversal.
 
 
-            Console.WriteLine(input);
+            Console.WriteLine($"you typed: " + input);
             
 
             // returns the string who has been reversed
+
+            if(input == Reversedstring)
+            {
+                Console.WriteLine("This is a Palindrome");
+            }
 
             return Reversedstring;
         }
