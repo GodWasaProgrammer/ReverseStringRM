@@ -28,6 +28,8 @@
 
             // returns the string who has been reversed
 
+
+            // if input is the same as reversed string and input is not equal to ""
             if (input == Reversedstring && input != "")
             {
                 Console.WriteLine("This is a Palindrome");

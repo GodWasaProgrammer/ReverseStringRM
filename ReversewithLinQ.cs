@@ -19,7 +19,7 @@
             if (input == output && input != "")
 
             {
-                Console.WriteLine("This is a Palondrime");
+                Console.WriteLine("This is a Palindrome");
             }
 
             // types out the reversed output string
