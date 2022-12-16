@@ -7,6 +7,8 @@
             ReverseMyString.Inputhandler();
              // cw. my class, method inputhandler, your input
             ReversewithLinQ.ReversebyLinQ(); // class,methodcall
+
+            Console.ReadKey();
         }
     }
 }
