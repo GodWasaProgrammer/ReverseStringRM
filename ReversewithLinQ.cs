@@ -28,7 +28,7 @@
             }
 
             // types out the reversed output string
-            Console.WriteLine(output);
+            Console.WriteLine($"What you typed but reversed:{output}");
         }
     }
 }
