@@ -13,36 +13,37 @@
                 {
                     Console.WriteLine("You have to give me some input!");
                 }
+
             }
             while (input == "");
-            
-            string Reversedstring = string.Empty;
-            // 
+
+            string reversedString = string.Empty;
             for (int i = input.Length - 1; i > -1; i--)
             {
-                Reversedstring += input[i];
+                reversedString += input[i];
             }
 
             // writes out what you put in, before reversal.
             Console.WriteLine($"you typed: " + input);
-            Console.WriteLine($"what you typed reversed: " + Reversedstring);
-            // returns the string who has been reversed
-            
-            if (input == Reversedstring)
+            Console.WriteLine($"what you typed reversed: " + reversedString);
+            if (input == reversedString)
             {
                 Console.WriteLine("This is a Palindrome");
             }
+
             Console.BackgroundColor = ConsoleColor.Green;
             Console.WriteLine("This also reverses, but this one by Linq");
             Console.WriteLine($"You typed: {input}");
-            // creates a string <output> , then makes input into a chararray,reverses,and back to array
-            string output = new(input.ToCharArray().Reverse().ToArray());
-            if (input == output)
+            
+            // types out the reversed output string
+            Console.WriteLine($"What you typed but reversed:{reversedString}");
+            // sets reversedstring , input to character array, reverses it, back to array
+            reversedString = new(input.ToCharArray().Reverse().ToArray());
+            if (input == reversedString)
             {
                 Console.WriteLine("This is a Palindrome");
             }
-            // types out the reversed output string
-            Console.WriteLine($"What you typed but reversed:{output}");
+
         }
     }
 }
